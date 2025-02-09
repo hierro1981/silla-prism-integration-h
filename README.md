@@ -8,13 +8,13 @@ This repository contains a fork of the custom integration to integrate a Silla P
 
 Prerequisites: A working MQTT server.
 
-1) Configure the Prism EVSE to work with your MQTT server  [has shown in manual](https://support.silla.industries/wp-content/uploads/2023/09/DOC-Prism_MQTT_Manual-rel.2.0_rev.-20220105-EN.pdf).
-2) Configure and enable the [MQTT integration](https://www.home-assistant.io/integrations/mqtt/) for HomeAssistant
-3) Install the custom integration from this repository [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?category=integration&repository=https%3A%2F%2Fgithub.com%2Fhierro1981%2Fsilla-prism-integration-h&owner=Hierro)
+1) Configure the Prism EVSE to work with your MQTT server <a href="https://support.silla.industries/wp-content/uploads/2023/09/DOC-Prism_MQTT_Manual-rel.2.0_rev.-20220105-EN.pdf" target="_blank">has shown in manual</a>.
+2) Configure and enable the <a href="https://www.home-assistant.io/integrations/mqtt/" target="_blank">MQTT integration</a> for HomeAssistant
+3) Install the custom integration from this repository <a href="https://my.home-assistant.io/redirect/hacs_repository/?category=integration&repository=https%3A%2F%2Fgithub.com%2Fhierro1981%2Fsilla-prism-integration-h&owner=Hierro" target="_blank"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Open your Home Assistant instance and open a repository inside the Home Assistant Community Store."></a>
 
 ## Usage
 
-1. Add integration Silla Prism using the dashboard  [![Open your Home Assistant instance and start setting up a new integration of a specific brand.](https://my.home-assistant.io/badges/brand.svg)](https://my.home-assistant.io/redirect/brand/?brand=silla_prism) 
+1. Add integration Silla Prism using the dashboard <a href="https://my.home-assistant.io/redirect/brand/?brand=silla_prism" target="_blank"><img src="https://my.home-assistant.io/badges/brand.svg" alt="Open your Home Assistant instance and start setting up a new integration of a specific brand."></a>
 
 2. Keep note of base path for all Prism topics
 
