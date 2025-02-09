@@ -2,7 +2,7 @@
 
 ![Silla Prism Solar](image.png)
 
-This repository contains a custom integration to integrate a Silla Prism EVSE inside HomeAssistant
+This repository contains a fork of the custom integration to integrate a Silla Prism EVSE inside HomeAssistant made by https://github.com/persuader72/silla-prism-integration
 
 ## Installation
 
@@ -10,7 +10,7 @@ Prerequisites: A working MQTT server.
 
 1) Configure the Prism EVSE to work with your MQTT server  [has shown in manual](https://support.silla.industries/wp-content/uploads/2023/09/DOC-Prism_MQTT_Manual-rel.2.0_rev.-20220105-EN.pdf).
 2) Configure and enable the [MQTT integration](https://www.home-assistant.io/integrations/mqtt/) for HomeAssistant
-3) Install the custom integration from this repository [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?category=integration&repository=https%3A%2F%2Fgithub.com%2Fpersuader72%2Fsilla-prism-integration&owner=Stefano+Pagnottelli)
+3) Install the custom integration from this repository [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?category=integration&repository=https%3A%2F%2Fgithub.com%2Fhierro1981%2Fsilla-prism-integration-h&owner=Hierro)
 
 ## Usage
 
@@ -74,7 +74,7 @@ Computed entities are not directly measured from Prism but are derived from othe
 
 ![Charger](images/setup4.png)
 
-It's possible to configure the [EV Charger Card](https://github.com/tmjo/charger-card) using the configuration example [provided](https://github.com/persuader72/custom-components/blob/main/charger-card/template.yaml) in this repository 
+It's possible to configure the [EV Charger Card](https://github.com/tmjo/charger-card) using the configuration example [provided](https://github.com/hierro1981/silla-prism-integration-h/blob/main/charger-card/template.yaml) in this repository 
 
 # Touch button and Automations
 
